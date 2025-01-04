@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- My Style link -->
+    <link rel="stylesheet" href="form.css">
+    <!-- Bootstrap Link for Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="../img/Logo.png" alt="">
+        <button><a href="login.html">Login</a></button>
+    </nav>
+
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email">
+            <div class="password">
+                <input type="password" id="password" class="password" placeholder="Password">
+                <i class="bi bi-eye-slash passwordIcon"></i>
+            </div>
+            <div class="password">
+                <input type="password" id="repeatPassword" class="password" placeholder="Repeat Password">
+                <i class="bi bi-eye-slash passwordIcon"></i>
+            </div>
+            <button id="signUp">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Script Link -->
+    <script src="firebaseConfig.js" type="module"></script>
+</body>
+
+</html>

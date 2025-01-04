@@ -1,0 +1,41 @@
+@media(max-width: 1024px) {
+    nav {
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    nav {
+        padding: 0 3rem;
+    }
+}
+
+@media(max-width: 425px) {
+    html {
+        font-size: 50%;
+    }
+
+    nav {
+        padding: 0 3rem;
+    }
+
+    nav .hidden {
+        display: none;
+    }
+
+    .menu>li {
+        margin-right: 0;
+    }
+
+    .menu a{
+        padding: 1rem;
+    }
+
+    nav .right{
+        gap: 3rem;
+    }
+}

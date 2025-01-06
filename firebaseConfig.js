@@ -88,7 +88,7 @@ function signIn(event) {
             document.getElementById("email").value = "";
             document.getElementById("password").value = "";
 
-            window.location.href = "../home.html";
+            window.location.href = "home.html";
         })
         .catch((error) => {
             const errorCode = error.code;

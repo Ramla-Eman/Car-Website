@@ -1,3 +1,5 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -61,6 +63,8 @@ nav button a {
     color: #fff;
     text-shadow: 1px 3px 5px #000;
     font-weight: bold;
+    
+  font-family: "Roboto Condensed", serif;
 }
 
 .container form {
@@ -123,4 +127,29 @@ nav button a {
     text-align: center;
     color: #fff;
     cursor: pointer;
+}
+
+@media(max-width: 1024px){
+    .container form{
+        width: 40%;
+    }
+}
+@media(max-width: 768px){
+    .container form{
+        width: 60%;
+    }
+}
+@media(max-width: 430px){
+    .container form{
+        width: 95%;
+    }
+}
+@media(max-width: 375px){
+    html{
+        font-size: 50%;
+    }
+    .container form input,
+    .container form .password{
+        width: 95%;
+    }
 }
